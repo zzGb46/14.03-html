@@ -156,3 +156,14 @@
     align-items: center;
     justify-content: center;
 }
+
+.text-aligned{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+    border: solid red;
+    margin-left: 130px;
+    width: 300px;
+}
