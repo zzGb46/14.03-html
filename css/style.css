@@ -188,4 +188,68 @@
     font-family: Arial, Helvetica, sans-serif;
     color: darkblue;
 }
+.inline-box{
+    background-image: linear-gradient(to left,red,green,yellow);
+  
+    
+    border: 2px solid red;
+    width: 50px;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    animation: load2 1.0s ease-in infinite;
 
+    animation-delay: 0.3s;
+    animation: rodopiar 2s infinite;
+   
+    
+}
+
+@keyframes load2{
+    0%{
+  transform: scale(1.0);
+  
+    }
+    50%{
+  transform: scale(1.2);
+  
+    }
+    100%{
+      transform: scale(1.0);
+      
+    }
+  
+   }
+
+.display{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+   
+}
+
+@keyframes rodopiar{
+    0%{
+transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+    75%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.invisible{
+    background-color: rgb(153, 72, 153);
+    display: none;
+}
+
+
+.static{
+    background-color: #4f8;
+    height: 150px;
+    width: 150px;
+}
